@@ -7,19 +7,16 @@ const Projects = () => {
       name: 'Vellum Health',
       desc: 'Developed a healthcare platform to improve digital healthcare accessibility and patient engagement. Implemented responsive interfaces and interactive healthcare workflows for easy user interaction. Optimized frontend performance and cross-platform compatibility.',
       tags: ['React', 'Node.js', 'Express.js', 'Tailwind CSS'],
-      github: 'https://github.com/hridyareddy',
     },
     {
       name: 'Smart Tutoring Platform',
       desc: 'Built a website where university students can find tutors, book sessions, and chat in real time. Added secure login with different access levels for students and tutors. Included a recommendation engine that suggests what to learn next.',
       tags: ['React', 'Node.js', 'Express.js', 'JWT', 'Real-time Chat'],
-      github: 'https://github.com/hridyareddy',
     },
     {
       name: 'Day-Ahead Electric Load Forecasting',
       desc: 'Developed a forecasting system to predict next-day electricity demand using historical power consumption data. Implemented anomaly detection techniques to identify unusual patterns and improve prediction accuracy.',
       tags: ['Python', 'Time Series', 'Anomaly Detection', 'Data Analysis'],
-      github: 'https://github.com/hridyareddy',
     },
   ];
   return (
