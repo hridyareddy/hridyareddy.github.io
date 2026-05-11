@@ -34,17 +34,6 @@ const Projects = () => {
           <div className="project-top">
             <h2 className="project-name">{project.name}</h2>
 
-            {/* ✅ FIXED anchor */}
-            <a
-              href={project.github}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="project-github"
-            >
-              GITHUB
-            </a>
-          </div>
-
           <p className="project-desc">{project.desc}</p>
 
           <div className="project-tags">
