@@ -19,9 +19,9 @@ const Projects = () => {
       tags: ['Python', 'Time Series', 'Anomaly Detection', 'Data Analysis'],
     },
   ];
+
   return (
     <div className="page">
-
       <div className="projects-hero">
         <p className="hero-role">My Work</p>
         <h1 className="projects-hero-title">
@@ -33,44 +33,20 @@ const Projects = () => {
         <div className="project-card" key={i}>
           <div className="project-top">
             <h2 className="project-name">{project.name}</h2>
-
+          </div>
           <p className="project-desc">{project.desc}</p>
-
           <div className="project-tags">
             {project.tags.map((tag, j) => (
-              <span className="project-tag" key={j}>
-                {tag}
-              </span>
+              <span className="project-tag" key={j}>{tag}</span>
             ))}
           </div>
         </div>
       ))}
 
       <nav className="bottom-nav">
-        <NavLink
-          to="/"
-          end
-          className={({ isActive }) =>
-            isActive ? 'nav-btn active' : 'nav-btn'
-          }
-        >
-          👤
-        </NavLink>
-
-        <NavLink
-          to="/projects"
-          className={({ isActive }) =>
-            isActive ? 'nav-btn active' : 'nav-btn'
-          }
-        >
-          💻
-        </NavLink>
-
-        <a href="mailto:hridya.komatireddy@gmail.com" className="nav-btn">
-          ✉️
-        </a>
+        <NavLink to="/" end className={({ isActive }) => isActive ? 'nav-btn active' : 'nav-btn'}>👤</NavLink>
+        <NavLink to="/projects" className={({ isActive }) => isActive ? 'nav-btn active' : 'nav-btn'}>💻</NavLink>
       </nav>
-
     </div>
   );
 };
