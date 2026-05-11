@@ -109,7 +109,6 @@ const Home = () => {
       <nav className="bottom-nav">
         <NavLink to="/" end className={({ isActive }) => isActive ? 'nav-btn active' : 'nav-btn'}>👤</NavLink>
         <NavLink to="/projects" className={({ isActive }) => isActive ? 'nav-btn active' : 'nav-btn'}>💻</NavLink>
-        <a href="mailto:hridya.komatireddy@gmail.com" className="nav-btn">✉️</a>
       </nav>
 
     </div>
