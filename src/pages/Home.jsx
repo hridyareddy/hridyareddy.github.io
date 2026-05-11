@@ -4,11 +4,9 @@ import profile from '../assets/profile.jpg';
 
 const Home = () => {
   const skills = [
-    'Python', 'Java', 'C', 'SQL',
-    'React', 'Node.js', 'Express', 'Flask',
-    'Streamlit', 'TypeScript', 'SARIMA',
-    'Time Series', 'Classification', 'REST API',
-    'OOP', 'DSA', 'JWT', 'Git',
+    'Python', 'SQL', 'C',
+    'React.js', 'Node.js', 'Express.js', 'Tailwind CSS',
+    'GitHub', 'Streamlit', 'Vercel',
   ];
 
   return (
@@ -16,10 +14,7 @@ const Home = () => {
 
       <div className="hero-card">
         <div className="profile-pic-wrap">
-
           <img src={profile} alt="profile" className="profile-img" />
-
-          {/* ✅ UPDATED ID */}
           <span className="student-badge">STUDENT ID: SE23UARI066</span>
         </div>
 
@@ -36,12 +31,10 @@ const Home = () => {
               <span className="contact-icon">📞</span>
               +91 9000431117
             </span>
-
             <span className="hero-contact-item">
               <span className="contact-icon">📍</span>
               Hyderabad, India
             </span>
-
             <span className="hero-contact-item">
               <span className="contact-icon">✉️</span>
               hridya.komatireddy@gmail.com
@@ -56,10 +49,9 @@ const Home = () => {
           <p className="about-text">
             I am a B.Tech student specializing in Artificial Intelligence
             at Mahindra University. I enjoy building intelligent systems —
-            from time-series forecasting models to quantum-safe security
-            solutions. My goal is to explore how AI can solve real-world
-            problems at the intersection of ML, security, and software
-            engineering.
+            from healthcare platforms to quantum-safe security solutions.
+            My goal is to explore how AI can solve real-world problems at
+            the intersection of ML, security, and software engineering.
           </p>
         </div>
 
@@ -70,7 +62,7 @@ const Home = () => {
             <div className="edu-icon">🎓</div>
             <div>
               <div className="edu-name">B.Tech in Artificial Intelligence</div>
-              <div className="edu-sub">Mahindra University | GPA: 7.16/10</div>
+              <div className="edu-sub">Mahindra University | Aug 2023 – Present | GPA: 7.16/10</div>
             </div>
           </div>
 
@@ -78,15 +70,15 @@ const Home = () => {
             <div className="edu-icon">🏫</div>
             <div>
               <div className="edu-name">Intermediate</div>
-              <div className="edu-sub">Page Junior College | 91.1%</div>
+              <div className="edu-sub">Page Junior College | Jul 2021 – May 2023 | 91.1%</div>
             </div>
           </div>
 
           <div className="edu-item">
             <div className="edu-icon">📚</div>
             <div>
-              <div className="edu-name">10th Grade</div>
-              <div className="edu-sub">St. Ann's High School | 89%</div>
+              <div className="edu-name">10th Grade (ICSE)</div>
+              <div className="edu-sub">St. Ann's High School | May 2021 | 89%</div>
             </div>
           </div>
         </div>
@@ -102,15 +94,14 @@ const Home = () => {
       </div>
 
       <div className="info-card">
-        <h2 className="card-title yellow">Certifications</h2>
+        <h2 className="card-title yellow">Highlights</h2>
         {[
-          'Machine Learning — GeeksForGeeks',
-          'Deep Learning Specialization — DeepLearning.AI',
-          'AI for Everyone — DeepLearning.AI',
-        ].map((cert, i) => (
+          'Quantum Computing Club (Mahindra University) — Conducted workshops on quantum algorithms and contributed to research on AI & cybersecurity applications.',
+          'Smart India Hackathon (SIH) — Proposed a Quantum Safe Email Client using secure key exchange and encrypted communication to address future cybersecurity threats.',
+        ].map((item, i) => (
           <div className="cert-item" key={i}>
             <span className="cert-dot"></span>
-            {cert}
+            {item}
           </div>
         ))}
       </div>
