@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 const Projects = () => {
   const projects = [
-     {
+    {
       name: 'Vellum Health',
       desc: 'Developed a healthcare platform to improve digital healthcare accessibility and patient engagement. Implemented responsive interfaces and interactive healthcare workflows for easy user interaction. Optimized frontend performance and cross-platform compatibility.',
       tags: ['React', 'Node.js', 'Express.js', 'Tailwind CSS'],
