@@ -3,32 +3,25 @@ import { NavLink } from 'react-router-dom';
 
 const Projects = () => {
   const projects = [
-    {
-      name: 'Day-Ahead Electric Load Forecasting & Anomaly Detection',
-      desc: 'Built a SARIMA-based time-series forecasting model on OPSD data to predict 24-hour ahead electricity demand. Used STL Decomposition and ACF/PACF for optimal model selection with MASE, RMSE, and MAPE evaluation metrics.',
-      tags: ['Python', 'SARIMA', 'Time Series', 'Anomaly Detection', 'STL'],
-      github: 'https://github.com/hridya-reddy/electric-load-forecasting',
+     {
+      name: 'Vellum Health',
+      desc: 'Developed a healthcare platform to improve digital healthcare accessibility and patient engagement. Implemented responsive interfaces and interactive healthcare workflows for easy user interaction. Optimized frontend performance and cross-platform compatibility.',
+      tags: ['React', 'Node.js', 'Express.js', 'Tailwind CSS'],
+      github: 'https://github.com/hridyareddy',
     },
     {
-      name: 'AI-Powered Smart Menu & Demand Prediction System',
-      desc: 'Designed an intelligent food ordering system with ML-based demand forecasting using classification algorithms. Built a modular Java backend with OOP principles and role-based access control.',
-      tags: ['Java', 'Machine Learning', 'Classification', 'OOP', 'Data Pipeline'],
-      github: 'https://github.com/hridya-reddy/smart-menu-system',
+      name: 'Smart Tutoring Platform',
+      desc: 'Built a website where university students can find tutors, book sessions, and chat in real time. Added secure login with different access levels for students and tutors. Included a recommendation engine that suggests what to learn next.',
+      tags: ['React', 'Node.js', 'Express.js', 'JWT', 'Real-time Chat'],
+      github: 'https://github.com/hridyareddy',
     },
     {
-      name: 'Secure E-Commerce Backend Architecture',
-      desc: 'Engineered a type-safe RESTful API using TypeScript and Express.js with JWT authentication, Bcrypt hashing, and Role-Based Access Control. Authored a Postman suite for automated contract verification.',
-      tags: ['TypeScript', 'Express.js', 'JWT', 'Bcrypt', 'RBAC', 'REST API'],
-      github: 'https://github.com/hridya-reddy/secure-ecommerce-backend',
-    },
-    {
-      name: 'Quantum Safe Email Client using QKD Simulation',
-      desc: 'Proposed a quantum-resistant email client leveraging Quantum Key Distribution for secure communication resistant to future cryptographic threats. Submitted as part of Smart India Hackathon (SIH).',
-      tags: ['Quantum Computing', 'QKD', 'Cryptography', 'Security', 'SIH'],
-      github: 'https://github.com/hridya-reddy/quantum-safe-email',
+      name: 'Day-Ahead Electric Load Forecasting',
+      desc: 'Developed a forecasting system to predict next-day electricity demand using historical power consumption data. Implemented anomaly detection techniques to identify unusual patterns and improve prediction accuracy.',
+      tags: ['Python', 'Time Series', 'Anomaly Detection', 'Data Analysis'],
+      github: 'https://github.com/hridyareddy',
     },
   ];
-
   return (
     <div className="page">
 
